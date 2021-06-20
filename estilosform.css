@@ -1,0 +1,84 @@
+body{
+	font: 14px/21px "lucida sans", "lucida grande", "lucida sans unicode", sans-serif;
+	background-color:FFFFFF;
+}
+#Encabezado{
+  
+  background-color:yellow;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color:black;
+}
+#Barra{
+  background-color:orange;
+  padding: 5px 15px;
+  margin-top: 10px;
+}
+#Botones li{
+   display: inline-block;
+   list-style: none;
+   padding: 6px; 
+   font:bold 15px verdana,sans-serif; 
+   background-color:yellow;
+   width: 200px;
+   text-align: center;
+   border-radius: 15px;
+}
+.contacto h2, .contacto label{
+	font-family: Georgia, Times, "Times New Roman", sans-serif;
+}
+.contacto ul{
+	width: 750px;
+	list-style-type: none;
+	list-style-position: outside;
+	margin: 0px;
+	padding: 0px;
+}
+.contacto li{
+	padding: 12px;
+	border-bottom: 1px solid #0000FF; 
+	position: relative;
+}
+.contacto li:first-child, .contacto li:lastchild{
+	border-bottom: 3px solid #FF0033;
+}
+.contacto h2{
+	margin: 0px;
+	display: inline;
+}
+.requeridos{
+	color:#0000FF;
+	margin: 5px 0 0 0;
+	display: inline;
+	float:right;
+}
+.contacto label{
+	width: 150px;
+	margin-top: 4px;
+	display:inline-block;
+	float:left;
+	padding: 3px;
+}
+.contacto input{
+	height: 20px;
+    width: 220px;
+    padding: 5px 8px;
+}
+.contacto textarea{
+	padding: 8px;
+	width:300px;
+}
+.contacto button{
+	margin-left: 156px;
+	background: red;
+	color: white;
+	border-radius: 5px;
+	height:50px; 
+	width: 150px;
+}
+.contacto input,.contacto textarea{
+	border:1px solid #000099;
+	box-shadow: 0px 0px 3px #FF66FF, 0px 10px 15px #99CCFF inset;
+	border-radius: 5px;
+}
